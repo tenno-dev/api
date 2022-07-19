@@ -8,9 +8,11 @@ app.use('*', poweredBy())
 
 app.get('/:platform', async (c) => {
   const platform = c.req.param('platform')
-  var lang1 = c.req.header('Accept-Language').slice(0, 2)
+  var lang1 = c.req.header('Accept-Language')
   if (lang1 == undefined) {
     lang1 = 'en'
+  } else {
+    lang1 = lang1.slice(0, 2)
   }
   const response = await fetch(apiurl + platform + '/?language=' + lang1, {
     cf: {
