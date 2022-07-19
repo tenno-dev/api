@@ -1,0 +1,4 @@
+name = "api"
+workers_dev = true
+compatibility_date = "2022-07-19"
+route ="api.tenno.dev/*"

@@ -1,0 +1,25 @@
+{
+  "name": "tennodev-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tenno-dev/api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tenno-dev/api/issues"
+  },
+  "homepage": "https://github.com/tenno-dev/api#readme",
+  "dependencies": {
+    "hono": "^2.0.2"
+  },
+  "devDependencies": {
+    "wrangler": "^2.0.22"
+  }
+}
